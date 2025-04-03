@@ -4,7 +4,10 @@ const cors = require('cors');
 
 
 const app = express();
-app.use(cors())
+app.use(cors({
+  origin: "https://codementor-ai-frontend.onrender.com",  // Allow only your frontend
+  methods: "GET,POST",
+}));
 app.use(express.json())
 
 app.get('/', (req, res) => {
