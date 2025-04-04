@@ -33,7 +33,7 @@ Check it out live here:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/CodeMentorAI.git
+git clone https://github.com/DarshiniKurasa/CodeMentorAI.git
 cd CodeMentorAI
 npm install
 npm run dev   # or npm start / npm run build depending on your setup
