@@ -10,7 +10,9 @@ import './App.css'
 
 function App() {
   // const [ count, setCount ] = useState(0)
-  const [ code, setCode ] = useState(` Enter any language code here to help this AI guide you and identify your mistakes.
+  const [ code, setCode ] = useState(`Enter any language code here to help this AI guide you and identify your mistakes.
+
+    NOTE: Please give AI a moment to think and generate a response after you press 'Review'.
 `)
 
   const [ review, setReview ] = useState(``)
